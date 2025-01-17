@@ -73,5 +73,6 @@ export default {
     help: '帮助',
     confirm: '确定',
     cancel: '取消',
-    pushurl: '推送地址'
+    pushurl: '推送地址',
+    OSGFlag: 'OSGame标记'
 };

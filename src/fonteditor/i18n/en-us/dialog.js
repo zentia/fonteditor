@@ -44,6 +44,7 @@ export default {
     dialog_glyf_unicode_example: ' &nbsp;&nbsp; Support Multi Unicodes, Example："$21,$22,$23"',
 
     dialog_unicode_set: 'Set Unicode',
+    dialog_osgame_set: 'OSGame',
     dialog_unicode_start: 'Start Unicode Code',
     dialog_generage_name: 'Generate Glyph Name',
 

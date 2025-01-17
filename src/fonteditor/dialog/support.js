@@ -17,6 +17,7 @@ import ie from '../dialog/setting-ie';
 import importpic from '../dialog/setting-import-pic';
 import sync from '../dialog/setting-sync';
 import glyfdownload from '../dialog/glyf-download';
+import osgame from '../dialog/setting-osgame';
 
 export default {
     unicode,
@@ -32,5 +33,6 @@ export default {
     ie,
     'import-pic': importpic,
     sync,
-    'glyf-download': glyfdownload
+    'glyf-download': glyfdownload,
+    osgame,
 };

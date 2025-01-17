@@ -65,5 +65,9 @@ export default [
     {
         name: 'setting-sync',
         title: i18n.lang.syncfont
+    },
+    {
+        name: 'setting-osgame',
+        title: i18n.lang.OSGFlag
     }
 ];

@@ -213,6 +213,16 @@ export default class Manager {
     }
 
     /**
+     * 
+     * @param {string} unicode unicode代码
+     * @param {Array=} indexList 索引列表
+     * @param {boolean} isGenerateName 是否生成name
+     */
+    setOSGame(unicode, indexList, isGenerateName) {
+
+    }
+
+    /**
      * 生成字形名称
      *
      * @param {Array=} indexList 索引列表

@@ -43,8 +43,10 @@ export default {
     dialog_glyf_unicode_example: ' &nbsp;&nbsp;可以设置多个unicode，例如："$21,$22,$23"',
 
     dialog_unicode_set: '设置代码点',
+    dialog_osgame_set: 'OSGame设置',
     dialog_unicode_start: '起始代码点',
     dialog_generage_name: '是否生成字形名称',
+    dialog_osgame_flag: '是否导出OSGame标记',
 
     dialog_metrics: '字体度量',
 

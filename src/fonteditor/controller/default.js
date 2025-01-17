@@ -389,6 +389,19 @@ function bindViewer(program) {
             }
         }).show();
     })
+    .on('setting-osgame', function (e) {
+        let Osgame = settingSupport.osgame;
+        !new Osgame({
+            onChange(setting) {
+                setTimeout(function(){
+                    if (program.ttfManager.get()) {
+                        let glfyList = program.viewer.getSelected();
+                        program.ttfManager.setOSGame(setting.unicode, glfyList, setting.isGenerateName);
+                    }
+                }, 20);
+            }
+        }).show();
+    })
     .on('setting-sync', function (e) {
         if (program.data.projectId) {
 
